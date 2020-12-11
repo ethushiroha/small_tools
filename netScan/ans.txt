@@ -1,0 +1,10 @@
+[+] scan start.....
+[+] port: 22 is open
+[+] port: 22 is open
+[+] port: 22 is open
+[-] port: 8848 is close
+[-] port: 8848 is close
+[+] port: 22 is open
+[-] port: 8848 is close
+[-] port: 8848 is close
+[-] scan ends
