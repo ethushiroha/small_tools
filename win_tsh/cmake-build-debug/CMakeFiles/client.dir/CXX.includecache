@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/cpp/win_tsh/Client/BindConnector.cpp
+iostream
+-
+BindConnector.h
+E:/cpp/win_tsh/Client/BindConnector.h
+
+E:/cpp/win_tsh/Client/BindConnector.h
+../Utils/BindUtils.h
+E:/cpp/win_tsh/Utils/BindUtils.h
+
+E:/cpp/win_tsh/Utils/BindUtils.h
+cstdlib
+-
+cstring
+-
+string
+E:/cpp/win_tsh/Utils/string
+winsock2.h
+E:/cpp/win_tsh/Utils/winsock2.h
+cstdio
+E:/cpp/win_tsh/Utils/cstdio
+windows.h
+E:/cpp/win_tsh/Utils/windows.h
+

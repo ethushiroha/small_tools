@@ -1,0 +1,4 @@
+E:/cpp/win_tsh/cmake-build-debug/CMakeFiles/server.dir
+E:/cpp/win_tsh/cmake-build-debug/CMakeFiles/client.dir
+E:/cpp/win_tsh/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/cpp/win_tsh/cmake-build-debug/CMakeFiles/rebuild_cache.dir

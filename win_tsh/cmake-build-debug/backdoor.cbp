@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="backdoor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/cpp/win_tsh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="E:/cpp/win_tsh/cmake-build-debug/server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cpp/win_tsh/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="E:/cpp/win_tsh/cmake-build-debug/server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cpp/win_tsh/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="E:/cpp/win_tsh/cmake-build-debug/client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cpp/win_tsh/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="E:/cpp/win_tsh/cmake-build-debug/client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cpp/win_tsh/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/cpp/win_tsh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/cpp/win_tsh/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw/MinGW/bin/mingw32-make.exe -f &quot;E:/cpp/win_tsh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/cpp/win_tsh/Client/BindConnector.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="E:/cpp/win_tsh/Client/BindConnector.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="E:/cpp/win_tsh/CommandExecutor/CommandExecutor.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="E:/cpp/win_tsh/CommandExecutor/CommandExecutor.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="E:/cpp/win_tsh/Server/Bind.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="E:/cpp/win_tsh/Server/Bind.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="E:/cpp/win_tsh/Utils/BindUtils.h">
+			<Option target="server"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="E:/cpp/win_tsh/client.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="E:/cpp/win_tsh/server.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="E:/cpp/win_tsh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
