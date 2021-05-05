@@ -1,4 +1,4 @@
-from Windows.md4 import MD4
+from md4 import MD4
 
 
 class NTLM_hash:
@@ -8,8 +8,13 @@ class NTLM_hash:
     def set_password(self, password):
         self.password = password
 
+    '''
     def __str__(self):
         return self.password + " ==> " + self.hexdigest()
+    '''
+
+    def __str__(self):
+        return self.hexdigest()
 
     def __eq__(self, other):
         return self.hexdigest() == other.hexdigest()

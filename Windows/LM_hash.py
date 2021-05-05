@@ -1,7 +1,7 @@
 from Crypto.Cipher import DES
 from Crypto.Util.number import long_to_bytes, bytes_to_long
 
-from Windows.md4 import MD4
+from md4 import MD4
 
 
 class LM_hash:
@@ -9,8 +9,13 @@ class LM_hash:
         self.password = password
         self.key = b'KGS!@#$%'
 
+    '''
     def __str__(self):
         return self.password + " ==> " + self.hexdigest()
+    '''
+
+    def __str__(self):
+        return self.hexdigest()
 
     def hexdigest(self):
         password = self.password.upper()
