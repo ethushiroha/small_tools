@@ -15,9 +15,10 @@ def main():
 
     else:
         password = sys.argv[1]
+        print("password: ", password)
         print("{}:{}".format(LM_hash(password), NTLM_hash(password)))
 
 
 if __name__ == '__main__':
-    tests()
-#    main()
+#     tests()
+    main()

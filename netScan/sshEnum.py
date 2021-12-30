@@ -19,7 +19,7 @@ def judge_ip(start_ip: str, end_ip=None) -> bool:
         start_ip_list = start_ip.split('.')
         end_ip_list = end_ip.split('.')
         if len(start_ip_list) != len(end_ip_list) != 4:
-            sys.stderr.write("ip format error\n")
+            sys.stderr.write("[-] ip format error\n")
             return False
         for i in range(3):
             if start_ip_list[i] != end_ip_list[i]:

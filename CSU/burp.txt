@@ -1,0 +1,10 @@
+GET /api.php/spaces_old?area=102&day=2021-08-09&endTime=22:00&segment=1470125&startTime=07:30 HTTP/1.1
+Host: libzw.csu.edu.cn
+Origin: http://www.skalibrary.com
+Connection: close
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.9(0x1800092e) NetType/WIFI Language/zh_CN
+Accept-Language: zh-cn
+Referer: http://www.skalibrary.com/
+Accept-Encoding: gzip, deflate
+
